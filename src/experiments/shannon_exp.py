@@ -75,13 +75,13 @@ for i in range(n_param):
     w1_ns = v1_ns + np.random.normal(loc=0,scale=sigma,size=v1_ns.shape)
 
 
-    # smoothing
-    w0_ts = gaussian_filter(w0_ts, sigma=0.5)
-    w0_ls = gaussian_filter(w0_ls, sigma=0.5)
-    w0_ns = gaussian_filter(w0_ns, sigma=0.5)
-    w1_ts = gaussian_filter(w1_ts, sigma=0.5)
-    w1_ls = gaussian_filter(w1_ls, sigma=0.5)
-    w1_ns = gaussian_filter(w1_ns, sigma=0.5)
+    # # smoothing
+    # w0_ts = gaussian_filter(w0_ts, sigma=0.5)
+    # w0_ls = gaussian_filter(w0_ls, sigma=0.5)
+    # w0_ns = gaussian_filter(w0_ns, sigma=0.5)
+    # w1_ts = gaussian_filter(w1_ts, sigma=0.5)
+    # w1_ls = gaussian_filter(w1_ls, sigma=0.5)
+    # w1_ns = gaussian_filter(w1_ns, sigma=0.5)
 
 
     t_hat    = subpixel_image_registration(u0,u1)
