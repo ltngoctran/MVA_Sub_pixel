@@ -6,10 +6,15 @@ Project from the MVA course Sub-pixel Image Processing.
 
 ## Packages 
 Numpy
+
 Pandas
+
 Matplotlib
+
 Imageio
+
 Scikit-image
+
 Scipy
 
 ## Run expeiments
